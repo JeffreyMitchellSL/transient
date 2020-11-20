@@ -13,7 +13,7 @@ from . import ssh
 
 MAX_CONCURRENT_SSHFS = 8
 
-_SSHFS_MAX_RUN_TIME = 2
+_SSHFS_MAX_RUN_TIME = 1.8
 
 
 def get_sftp_server(name: str) -> str:
